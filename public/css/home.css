@@ -4,6 +4,7 @@
 }
 
 .home .banner{
+    width: 100%;
     display: none;
 }
 
@@ -54,4 +55,23 @@
     background-color: var(--colorGris);
     display: inline-block;
     margin: 20px 0;
+}
+
+/*tablet*/
+@media (min-width: 768px) {
+    .home .banner{
+        display: block;
+    }
+    
+    .home .producto{
+        width: 48%;
+        display: inline-block;
+        margin-right: 3%;
+    }
+    .home .producto:nth-child(even){
+        margin-right: 3%;
+    }
+    .home .producto:nth-child(2n){
+        margin-right: 0%;
+    }
 }
