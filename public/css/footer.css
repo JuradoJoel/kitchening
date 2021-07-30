@@ -14,3 +14,27 @@ footer li a {
     color: #FFFFFF;
     text-transform: uppercase;
 }
+
+
+/* desktop*/
+@media (min-width:1024px) {
+    footer{
+        padding: 40px;
+        background-color: #b71e15;
+        text-align: center;
+        border-radius: 5% 5% 0 0;
+    }
+    footer li{
+        background: none;
+        display: inline-block;
+        border-right: 1px solid #FFFFFF;
+        padding: 5px 10px;
+    }
+
+    footer li:last-child{
+        border-right: none;
+    }
+    footer li a{
+        text-transform: capitalize;
+    }
+}

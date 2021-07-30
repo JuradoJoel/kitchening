@@ -76,3 +76,29 @@
         margin-right: 0%;
     }
 }
+
+/*desktop*/
+
+@media (min-width:1024px){
+    .home{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    .home .productos{
+        overflow: hidden;
+    }
+
+    .home .producto{
+        float: left;
+        width: 32%;
+        margin-right: 2%;
+    }
+    .home .producto:nth-child(2n){
+        margin-right: 2%;
+    }
+    .home .producto:nth-child(3n){
+        margin-right: 0%;
+    }
+    
+    
+}
