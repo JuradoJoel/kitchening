@@ -3,7 +3,7 @@
     padding: 0 10px;
 }
 
-.home .banner{
+.home .banner img{
     width: 100%;
     display: none;
 }
@@ -59,7 +59,7 @@
 
 /*tablet*/
 @media (min-width: 768px) {
-    .home .banner{
+    .home .banner img{
         display: block;
     }
     
@@ -68,6 +68,7 @@
         display: inline-block;
         margin-right: 3%;
     }
+    
     .home .producto:nth-child(even){
         margin-right: 3%;
     }
